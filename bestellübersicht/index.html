@@ -3,9 +3,180 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./styles/base.css" type="text/css" />
-    <link rel="stylesheet" href="./styles/overview.css" type="text/css" />
+    <link rel="stylesheet" href="../styles/base.css" type="text/css" />
+    <link rel="stylesheet" href="../styles/overview.css" type="text/css" />
     <title>LoqoPizza - Bestellübersicht</title>
   </head>
-  <body></body>
+  <body>
+    <section class="s-h_fullScreen">
+      <div class="s-h_left">
+        <nav class="p-nav">
+          <a href="/index.html" class="n-logo_wr">
+            <svg
+              width="176"
+              height="40"
+              viewBox="0 0 176 40"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g clip-path="url(#clip0_16_68)">
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M15 28C13.6739 28 12.4021 27.4732 11.4645 26.5355C10.5268 25.5979 10 24.3261 10 23V0H0V23C0 31.284 6.716 38 15 38H26V28H15ZM45 10C43.8181 10 42.6478 10.2328 41.5558 10.6851C40.4639 11.1374 39.4718 11.8003 38.636 12.636C37.8003 13.4718 37.1374 14.4639 36.6851 15.5558C36.2328 16.6478 36 17.8181 36 19C36 20.1819 36.2328 21.3522 36.6851 22.4442C37.1374 23.5361 37.8003 24.5282 38.636 25.364C39.4718 26.1997 40.4639 26.8626 41.5558 27.3149C42.6478 27.7672 43.8181 28 45 28C47.3869 28 49.6761 27.0518 51.364 25.364C53.0518 23.6761 54 21.3869 54 19C54 16.6131 53.0518 14.3239 51.364 12.636C49.6761 10.9482 47.3869 10 45 10ZM26 19C26 8.507 34.507 0 45 0C55.493 0 64 8.507 64 19C64 29.493 55.493 38 45 38C34.507 38 26 29.493 26 19ZM153 10C150.613 10 148.324 10.9482 146.636 12.636C144.948 14.3239 144 16.6131 144 19C144 21.3869 144.948 23.6761 146.636 25.364C148.324 27.0518 150.613 28 153 28C155.387 28 157.676 27.0518 159.364 25.364C161.052 23.6761 162 21.3869 162 19C162 16.6131 161.052 14.3239 159.364 12.636C157.676 10.9482 155.387 10 153 10ZM134 19C134 8.507 142.507 0 153 0C163.493 0 172 8.507 172 19C172 29.493 163.493 38 153 38C142.507 38 134 29.493 134 19ZM85 0C74.507 0 66 8.507 66 19C66 29.493 74.507 38 85 38H113C114.969 38 116.868 37.7 118.654 37.144L124 40L129.768 29.196C131.233 26.4457 132 23.3773 132 20.261V19C132 8.507 123.493 0 113 0H85ZM122 19C122 16.6131 121.052 14.3239 119.364 12.636C117.676 10.9482 115.387 10 113 10H85C83.8181 10 82.6478 10.2328 81.5558 10.6851C80.4639 11.1374 79.4718 11.8003 78.636 12.636C77.8003 13.4718 77.1374 14.4639 76.6851 15.5558C76.2328 16.6478 76 17.8181 76 19C76 20.1819 76.2328 21.3522 76.6851 22.4442C77.1374 23.5361 77.8003 24.5282 78.636 25.364C79.4718 26.1997 80.4639 26.8626 81.5558 27.3149C82.6478 27.7672 83.8181 28 85 28H113C115.375 28.0001 117.654 27.0615 119.339 25.3888C121.025 23.716 121.982 21.4448 122 19.07V19Z"
+                  fill="white"
+                />
+                <path
+                  d="M176 2.5C176 3.16304 175.737 3.79893 175.268 4.26777C174.799 4.73661 174.163 5 173.5 5C172.837 5 172.201 4.73661 171.732 4.26777C171.263 3.79893 171 3.16304 171 2.5C171 1.83696 171.263 1.20107 171.732 0.732233C172.201 0.263392 172.837 0 173.5 0C174.163 0 174.799 0.263392 175.268 0.732233C175.737 1.20107 176 1.83696 176 2.5Z"
+                  fill="white"
+                />
+              </g>
+              <defs>
+                <clipPath id="clip0_16_68">
+                  <rect width="176" height="40" fill="white" />
+                </clipPath>
+              </defs>
+            </svg>
+          </a>
+          <a href="./bestellübersicht/" class="n-link">
+            <svg
+              width="30"
+              height="30"
+              viewBox="0 0 30 30"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <mask
+                id="mask0_16_77"
+                style="mask-type: alpha"
+                maskUnits="userSpaceOnUse"
+                x="0"
+                y="0"
+                width="30"
+                height="30"
+              >
+                <rect width="30" height="30" fill="white" />
+              </mask>
+              <g mask="url(#mask0_16_77)">
+                <path
+                  d="M3.75 23.75C3.0625 23.75 2.47396 23.5052 1.98438 23.0156C1.49479 22.526 1.25 21.9375 1.25 21.25V8.75C1.25 8.0625 1.49479 7.47396 1.98438 6.98438C2.47396 6.49479 3.0625 6.25 3.75 6.25H16.25C16.9375 6.25 17.526 6.49479 18.0156 6.98438C18.5052 7.47396 18.75 8.0625 18.75 8.75V21.25C18.75 21.9375 18.5052 22.526 18.0156 23.0156C17.526 23.5052 16.9375 23.75 16.25 23.75H3.75ZM3.75 21.25H16.25V8.75H3.75V21.25ZM21.25 23.75V6.25H23.75V23.75H21.25ZM26.25 23.75V6.25H28.75V23.75H26.25Z"
+                  fill="white"
+                />
+              </g>
+            </svg>
+            <p class="t-body c-white">Bestellübersicht</p>
+          </a>
+        </nav>
+        <div class="s-txt_wr">
+          <h1 class="t-h1">Hmmmm...<br />das ist ja<br />tasty af!</h1>
+        </div>
+      </div>
+      <div class="s-h_right">
+        <h2 class="t-h2 c-white">#P12345689-ABC</h2>
+        <table class="s-h_table">
+          <tr>
+            <th>
+              <p class="t-h3 c-white">Artikel</p>
+            </th>
+            <th>
+              <p class="t-h3 c-white">Menge</p>
+            </th>
+            <th>
+              <p class="t-h3 c-white">Preis</p>
+            </th>
+          </tr>
+          <tr>
+            <td>
+              <p class="t-body c-white">Pizza MamaMia</p>
+            </td>
+            <td>
+              <p class="t-body c-white">2x</p>
+            </td>
+            <td>
+              <p class="t-body c-white">á 13,99€</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p class="t-body c-white">Pizza PowerShell</p>
+            </td>
+            <td>
+              <p class="t-body c-white">4x</p>
+            </td>
+            <td>
+              <p class="t-body c-white">á 10,99€</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p class="t-body c-white">Pizza Foxletta</p>
+            </td>
+            <td>
+              <p class="t-body c-white">6x</p>
+            </td>
+            <td>
+              <p class="t-body c-white">á 9,99€</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p class="t-body c-white">Pizza Javirus</p>
+            </td>
+            <td>
+              <p class="t-body c-white">1x</p>
+            </td>
+            <td>
+              <p class="t-body c-white">á 12,99€</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p class="t-body c-white">Pizza Calebug</p>
+            </td>
+            <td>
+              <p class="t-body c-white">2x</p>
+            </td>
+            <td>
+              <p class="t-body c-white">á 11,99€</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p class="t-body c-white">Pizza Eclipse</p>
+            </td>
+            <td>
+              <p class="t-body c-white">5x</p>
+            </td>
+            <td>
+              <p class="t-body c-white">á 14.99€</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p class="t-bodyBig c-white">Gesamt</p>
+            </td>
+            <td></td>
+            <td>
+              <p class="t-bodyBig c-white">243,88 €</p>
+            </td>
+          </tr>
+        </table>
+        <svg
+          width="800"
+          height="786"
+          viewBox="0 0 800 786"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+          class="s-h_svg"
+        >
+          <g opacity="0.1">
+            <path
+              d="M296.75 769.55C367.425 769.45 449.75 769.15 511.325 769C671.3 648.875 522.55 485.475 388.35 509.125C506.85 598.7 403.75 745.475 296.75 769.55ZM581.125 154.325C581.15 155.45 581.125 156.575 581.125 157.725C704.3 447.675 368.275 452.75 395.125 175.65C330.1 332.375 187.825 172.3 253.05 33.2749C-33.7749 199.7 334.15 387.925 237.15 551.9C182.425 644.4 59.4251 507.7 68.2501 354.1C-9.4249 551.25 47.1251 692.225 148.55 768.675C151.225 769.325 188.125 769.575 239.875 769.6C234.575 768.25 229.4 766.475 224.325 764.25C190.95 749.6 171.325 669.05 269.875 626.675C250.2 747.625 485.025 647.625 306.325 370.675C439.275 412.6 523.2 464.3 583.275 556.525C625.625 518.75 656.025 454.675 665.275 391.625C733.1 513.35 701.925 700.5 541.525 768.925C577 768.85 600.775 768.875 603.3 769.05C844.725 714.8 820.625 386.975 581.125 154.325Z"
+              fill="white"
+            />
+          </g>
+        </svg>
+      </div>
+    </section>
+  </body>
 </html>

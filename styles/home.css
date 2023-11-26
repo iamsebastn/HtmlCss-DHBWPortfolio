@@ -58,9 +58,9 @@
 
 .li-item {
   position: relative;
-  width: 34em;
+  width: 32.75%;
   height: 35.5em;
-  border: 1px solid var(--color-light-black);
+  background: var(--color-love-red);
   border-radius: 1.875em;
   padding: 3.75em 1.875em 0;
   overflow: hidden;
@@ -73,7 +73,7 @@
 }
 
 .li-content > :first-child {
-  border: 1px solid var(--color-light-black);
+  border: 1px solid var(--color-soft-white);
   align-self: flex-start;
   padding: 0.5em 0.75em;
   border-radius: 100px;
@@ -95,6 +95,30 @@
 }
 
 /* Section: Footer */
+.f-link {
+  display: inline-block;
+  position: relative;
+  color: var(--color-love-red);
+  text-decoration: none;
+}
+
+.f-link::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-love-red);
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.f-link:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
 
 /* Type: Animation */
 @keyframes scroll {
