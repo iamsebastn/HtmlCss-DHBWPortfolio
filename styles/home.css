@@ -26,5 +26,82 @@
 }
 
 /* Section: Benefits */
+.s-h_fullwidth {
+  width: 100%;
+  margin-top: 8.75em;
+}
+
+.marquee {
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 3.5em;
+}
+
+.track {
+  flex-shrink: 0;
+  display: flex;
+  justify-content: space-around;
+  min-width: 100%;
+  gap: 1.25em;
+  white-space: nowrap;
+  animation: scroll 20s linear infinite;
+}
+
+.s-h_fullwidth > ul {
+  width: 100%;
+  padding: 0 1.875em;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.li-item {
+  position: relative;
+  width: 34em;
+  height: 35.5em;
+  border: 1px solid var(--color-light-black);
+  border-radius: 1.875em;
+  padding: 3.75em 1.875em 0;
+  overflow: hidden;
+}
+
+.li-content {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5em;
+}
+
+.li-content > :first-child {
+  border: 1px solid var(--color-light-black);
+  align-self: flex-start;
+  padding: 0.5em 0.75em;
+  border-radius: 100px;
+}
+
+.img_abs {
+  position: absolute;
+  pointer-events: none;
+}
+
+.blob {
+  top: 0;
+  right: 0;
+}
+
+.num {
+  left: 1.875em;
+  bottom: 0;
+}
 
 /* Section: Footer */
+
+/* Type: Animation */
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(calc(-100% - 1.25em));
+  }
+}
